@@ -4,6 +4,12 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
   <ItemGroup>
+    <None Remove="Templates\Record.sbncs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Templates\Record.sbncs" />
+  </ItemGroup>
+  <ItemGroup>
     <PackageReference Include="Scriban" Version="6.2.1" />
     <PackageReference Include="YamlDotNet" Version="16.3.0" />
   </ItemGroup>
