@@ -27,6 +27,6 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\src\$TemplateNamePascalCase$.Cli\$TemplateNamePascalCase$.Cli.csproj" />
+    <ProjectReference Include="..\..\src\Restafarian.Core\Restafarian.Core.csproj" />
   </ItemGroup>
 </Project>

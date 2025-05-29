@@ -1,6 +1,6 @@
 {
   "profiles": {
-    "$TemplateNamePascalCase$.Console": {
+    "Restafarian.Console": {
       "commandName": "Project",
       "commandLineArgs": "--Template template.scriban --Source source.yaml"
     }

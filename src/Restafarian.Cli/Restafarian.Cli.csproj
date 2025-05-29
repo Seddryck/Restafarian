@@ -4,22 +4,22 @@
     <OutputType>Exe</OutputType>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <AssemblyName>$TemplateNamePascalCase$</AssemblyName>
-    <ApplicationIcon>$TemplateNameCamelCase$.ico</ApplicationIcon>
+    <AssemblyName>Restafarian</AssemblyName>
+    <ApplicationIcon>restafarian.ico</ApplicationIcon>
   </PropertyGroup>
 
   <PropertyGroup>
     <PackAsTool>true</PackAsTool>
-    <ToolCommandName>$TemplateNameCamelCase$</ToolCommandName>
+    <ToolCommandName>restafarian</ToolCommandName>
     <PackageOutputPath>./.nupkg</PackageOutputPath>
-    <PackageId>$TemplateNamePascalCase$-cli</PackageId>
+    <PackageId>Restafarian-cli</PackageId>
   </PropertyGroup>
 
   <ItemGroup>
     <Content Include="appsettings.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="$TemplateNameCamelCase$.ico" />
+    <Content Include="restafarian.ico" />
   </ItemGroup>
 
   <ItemGroup>
@@ -30,7 +30,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\$TemplateNamePascalCase$.Core\$TemplateNamePascalCase$.Core.csproj" />
+    <ProjectReference Include="..\Restafarian.Core\Restafarian.Core.csproj" />
   </ItemGroup>
 
 </Project>
