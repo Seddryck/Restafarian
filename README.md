@@ -1,6 +1,6 @@
 # Restafarian
 
-![Logo](https://raw.githubusercontent.com/Seddryck/Restafarian/main/assets/Restafarian-logo-256.png)
+![Logo](https://raw.githubusercontent.com/Seddryck/Restafarian/main/assets/restafarian-logo-256.png)
 
 Restafarian is a strongly opinionated source generator that transforms a structured YAML configuration into a fully functional, minimalistic REST API. It enforces clear design rules, predictable routing patterns, and explicit contract definitions—so your APIs are not just compliant, but clean and consistent by default.
 
