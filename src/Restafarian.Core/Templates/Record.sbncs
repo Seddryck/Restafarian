@@ -1,0 +1,8 @@
+﻿namespace {{ namespace }};
+
+public record {{ model.name }}
+{
+    {{~ for field in model.fields ~}}
+    public {{ field.type }}{{ if field.nullable }}?{{ end }} {{ field.name | string.capitalize }} { get; init; }
+    {{~ end ~}}
+}
